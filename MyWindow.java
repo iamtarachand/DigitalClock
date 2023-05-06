@@ -33,6 +33,18 @@ public class MyWindow extends JFrame{
     }
 
     public void createtimer(){
+//        Timer timer = new Timer(1000, new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+////                String dateTime = new Date().toString();
+//                Date date = new Date();
+//                SimpleDateFormat sdf = new SimpleDateFormat("hh : mm : ss a");
+//                String dateTime = sdf.format(date);
+//                clockLabel.setText(dateTime);
+//            }
+//        });
+//        timer.start();
+
         Thread t = new Thread(){
             public void run(){
                 while(true){
